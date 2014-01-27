@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "name": "Bible Reader",
+  "description": "Nesta Bíblia digital você poderá fazer uma leitura controlada marcando os versículos já lidos para ter uma estatística em tempo real.",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/app-icons/icon-16.png",
+    "48": "/app-icons/icon-48.png",
+    "128": "/app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Celso Junior",
+    "url": "http://celsojr.com"
+  },
+  "locales": {
+    "es": {
+      "description": "En esta Biblia digital, usted puede hacer una lectura controlada marcar los versículos que hemos leído a tener unas estadísticas en tiempo real.",
+      "developer": {
+        "url": "http://celsojr.com"
+      }
+    },
+    "en": {
+      "description": "In this digital Bible you can make a controlled reading marking the verses you have read to have a realtime statistics.",
+      "developer": {
+        "url": "http://celsojr.com"
+      }
+    }
+  },
+  "default_locale": "pt-br"
+}

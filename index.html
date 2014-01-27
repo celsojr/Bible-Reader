@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Bible Reader</title>
+        <meta name="viewport" content="width=device-width"/> 
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+    	<div id="logo" style="text-align: center">
+        	<img src="app-icons/icon-48.png" style="margin-bottom:-15px" /> <span id="title">Bible Reader</span>
+        </div>
+        <div id="botoes">
+            <span id="statusGerais">
+            	Você já leu <br />
+            	<span id="leituraGeral">0%</span> <br />
+            	da Bíblia
+            </span>
+            <br />
+            
+            <a href="#null" class="home"><img src="img/home.png" title="Home" /></a>
+            <a href="#null" id="books">Livros</a>
+            <a href="#null" id="reset">Resetar</a>
+            <br />
+            
+            <span id="resetar">
+                Deseja realmente resetar?<br /><br />
+                <span class="caps" id="sim">Sim</span>
+                <span class="caps" id="nao">Não</span>
+            </span>
+            <span id="creditos"><br />Copyright &copy; 2014 <br /> Desenvolvido por Celso Junior</span>
+        </div>
+        <br />
+    
+        <div id="app"></div>
+  
+        <script src="js/json2.js"></script>
+        <script src="js/jquery-1.10.2.min.js"></script>
+        <script src="js/jstorage.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/biblia-json.js"></script>
+    </body>
+</html>

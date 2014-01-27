@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('../fonts/opensans-condlight.eot');
+    src: url('../fonts/opensans-condlight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-condlight.woff') format('woff'),
+         url('../fonts/opensans-condlight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+body {
+	color: #fff;
+	background: url(../img/niteroi.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+#leituraGeral, #title {
+	font-size: 24px;
+}
+#creditos {
+	font-size: 15px;	
+}
+#books, #reset {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: rgba(0, 0, 0, 0.35);
+	color: #FFF;
+}
+#books {
+	margin-right: 20px;
+}
+#botoes {
+	text-align: center;
+}
+#statusGerais {
+	display: inline-block;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 3px 3px 3px 3px;
+	width: 80px;
+	height: 70px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#resetar {
+	display: inline-block;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.25);
+	border-radius: 3px 3px 3px 3px;
+	width: 200px;
+	height: 90px;
+	text-align: center;
+	margin-top: 20px;
+}
+.home {
+	float: right;
+	background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF);
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+	border: 1px solid #CCCCCC;
+    color: #333333;
+    cursor: pointer;
+	display: block;
+	padding: 5px 15px;
+	margin-right: 3px;
+	
+	transition: all 0.30s ease-in-out 0s;
+	-o-transition: all 0.30s ease-in-out 0s;
+	-webkit-transition: all 0.30s ease-in-out 0s;
+	-moz-transition: all 0.30s ease-in-out 0s;
+	cursor:pointer;
+}
+.versiculos {
+	list-style: none;
+	font: 15px 'trebuchet MS', 'lucida sans';
+}
+.versiculos:hover {	cursor: pointer }
+.versiculoLido { background-color: #FFC }
+sup { 
+	color: #CCC; 
+	font-weight: bold 
+}
+.caps{
+	background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF);
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+	border:1px solid #CCCCCC;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font: 13px/15px Verdana,Arial,Helvetica,sans-serif;
+    margin: 2px;
+    overflow: visible;
+    padding: 12px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    white-space: nowrap;
+	
+	transition:         all 0.30s ease-in-out 0s;
+	-o-transition:      all 0.30s ease-in-out 0s;
+	-webkit-transition: all 0.30s ease-in-out 0s;
+	-moz-transition:    all 0.30s ease-in-out 0s;
+}
+.highlight {
+	background-image: linear-gradient(to bottom, #C8C8C8 0px, #E6E6E6 100%);
+    border-color: #888888 #AAAAAA #CCCCCC;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25) inset, 0 1px 0 #FFFFFF;
+}
+.dynBookList:hover,.caps:hover,.home:hover {
+	background-color: #E8E8E8;
+	background-image: -moz-linear-gradient(center top , #FFFFFF, #E8E8E8);
+}
+ul {
+	list-style: none;
+	font: 15px 'trebuchet MS', 'lucida sans';
+	margin-left:-40px;
+}
+li { padding: 3px }
+li:link { padding: 20px }
+.dynBookList {
+	background-color: #F6F6F6;
+    background-image: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF);
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px;
+	border: 1px solid #CCCCCC;
+    color: #333333;
+    cursor: pointer;
+	display: block;
+	padding: 20px;
+	
+	transition: all 0.30s ease-in-out 0s;
+	-o-transition: all 0.30s ease-in-out 0s;
+	-webkit-transition: all 0.30s ease-in-out 0s;
+	-moz-transition: all 0.30s ease-in-out 0s;
+	cursor:pointer;
+}
+a { text-decoration: none }
+.dynBookList:hover { background-color: red}
