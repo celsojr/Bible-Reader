@@ -1,12 +1,15 @@
-{
+﻿{
   "version": "0.1",
   "name": "Bible Reader",
   "description": "Nesta Bíblia digital você poderá fazer uma leitura controlada marcando os versículos já lidos para ter uma estatística em tempo real.",
-  "launch_path": "/index.html",
+  "launch_path": "/Bible-Reader/index.html",
   "icons": {
-    "16": "/app-icons/icon-16.png",
-    "48": "/app-icons/icon-48.png",
-    "128": "/app-icons/icon-128.png"
+    "16": "Bible-Reader/app-icons/icon-16.png",
+    "32": "Bible-Reader/app-icons/icon-32.png",
+    "48": "Bible-Reader/app-icons/icon-48.png",
+    "60": "Bible-Reader/app-icons/icon-60.png",
+    "128": "Bible-Reader/app-icons/icon-128.png",
+    "256": "Bible-Reader/app-icons/icon-256.png"
   },
   "developer": {
     "name": "Celso Junior",
