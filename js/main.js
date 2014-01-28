@@ -5,10 +5,7 @@ var vers = [];
 
 var CurrentBook = '';
 var CurrentCap = '';
-
-var versiculos = '';
 var AllBooks = '';
-var AllCaps = '';
 var AllVers = '';
 
 var versiculosLidos = 0;
@@ -36,12 +33,6 @@ $(function() {
 		$("#app").html("Seu navegador não oferece suporte para este aplicativo.");
 	}
 
-	//var nullTest = $.jStorage.get("Gênesis_status") ? $.jStorage.get("Gênesis_status") : "Vazio";
-	//var nullTest = $.jStorage.get("Gênesis_status", "Vazio");
-	//var nullTest = $.jStorage.get("Gênesis_status") || "Vazio"; <-- USAR ESTE
-
-	//alert(nullTest);
-	
 	//Preenche o array de livros
 	for (var b in biblia) {
 		books.push(b);
