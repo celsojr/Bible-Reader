@@ -12,14 +12,11 @@ var versiculosLidos = 0;
 var versiculosTotais = 0;
 
 $(function() {
-	$('.home').hide();
-	$("#resetar").hide();
-	
 	$('.home').click(function() {
 		location.reload();
 	});
 	$("#reset").click(function() {
-		$("#resetar").fadeIn(500);
+		$("#resetar").fadeIn(500).css("display", "inline-block");
 	});
 	$("#nao").click(function() {
 		$("#resetar").fadeOut(500);
@@ -51,7 +48,7 @@ $(function() {
 		versiculosTotais += versTotais; //soma todos os vercículos da bíblia
 		versTotais = 0;
 	}
-	
+
 	//Soma os vercículos lidos
 	for (book in books) {
 		versiculosLidos += $.jStorage.get(books[book]+"_status", 0)
