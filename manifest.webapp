@@ -1,6 +1,6 @@
 ﻿{
-  "version": "0.1",
-  "name": "Bible Reader",
+  "version": "0.2",
+  "name": "BibleR",
   "description": "Nesta Bíblia digital você poderá fazer uma leitura controlada marcando os versículos já lidos para ter uma estatística em tempo real.",
   "launch_path": "/Bible-Reader/index.html",
   "icons": {

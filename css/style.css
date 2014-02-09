@@ -100,7 +100,8 @@ sup {
     overflow: visible;
     padding: 12px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
-    vertical-align: middle;
+    text-align: center;
+    width: 25px;
     white-space: nowrap;
 	
 	transition:         all 0.30s ease-in-out 0s;
